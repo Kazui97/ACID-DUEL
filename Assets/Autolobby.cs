@@ -14,8 +14,10 @@ public class Autolobby : MonoBehaviourPunCallbacks
     public int playernume;
 
 
-    public byte maxPlayer = 2;
+    public byte maxPlayer = 3;
+    public byte minPlayer = 2;
 
+    public bool isloading = false;
 
 
     public void Connectar()
@@ -80,5 +82,17 @@ public class Autolobby : MonoBehaviourPunCallbacks
         if(PhotonNetwork.CurrentRoom != null)
         playernume = PhotonNetwork.CurrentRoom.PlayerCount;
         playercont.text = playernume + "/" + maxPlayer;
+
+        if (!isloading  && playernume >= minPlayer)
+        {
+            cargarmapa();
+        }
     }
+
+    private void cargarmapa()
+    {
+        isloading = true;
+        PhotonNetwork.LoadLevel("mapa");
+    }
+
 }

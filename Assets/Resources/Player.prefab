@@ -559,7 +559,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1773424420}
-  m_LocalRotation: {x: -0.0033742376, y: -0.00013827969, z: -0.00000046833813, w: 0.99999434}
+  m_LocalRotation: {x: -0.0033742397, y: -0.00013827876, z: -0.00000046833526, w: 0.99999434}
   m_LocalPosition: {x: -2.7939678e-10, y: -0.00000014305115, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1297,7 +1297,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4216479627399669504}
-  - component: {fileID: 4216479627399674108}
   - component: {fileID: 4216479627399669505}
   - component: {fileID: 4216479627399669506}
   - component: {fileID: 2641212482752516711}
@@ -1306,6 +1305,7 @@ GameObject:
   - component: {fileID: 2010724562223331206}
   - component: {fileID: 4806702724979039550}
   - component: {fileID: 2052409313823593257}
+  - component: {fileID: 3915373583410609668}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1332,37 +1332,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4216479627399674108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4216479627399674109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1352dc512b18ac342bb07b9717114dec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletsContainer: {fileID: 0}
-  shotpoint: {fileID: 4216479628720425721}
-  play: 0
-  onAir: 0
-  collided: 0
-  unestableColl: 0
-  speed: 2.17
-  x: 0
-  y: 0
-  xr: 0
-  yr: 0
-  upRotation: 0
-  velocity: {x: 0, y: 0, z: 0}
-  life: 20
-  underpoint: {fileID: 4441967048561758270}
-  shotClip: {fileID: 8300000, guid: d277f7c72f95e24478438a129b197446, type: 3}
-  damaged: {fileID: 8300000, guid: 943ba8a64b887994a8fb5e24da1af832, type: 3}
-  running: {fileID: 487295289}
-  runningVol: 0.553
 --- !u!95 &4216479627399669505
 Animator:
   serializedVersion: 3
@@ -1589,11 +1558,42 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4216479627399674109}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a9721b140ae5d6c469ebfcb301a78a69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3915373583410609668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4216479627399674109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1352dc512b18ac342bb07b9717114dec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletsContainer: {fileID: 0}
+  shotpoint: {fileID: 4216479628720425721}
+  play: 1
+  onAir: 0
+  collided: 0
+  unestableColl: 0
+  speed: 2.17
+  x: 0
+  y: 0
+  xr: 0
+  yr: 0
+  upRotation: 0
+  velocity: {x: 0, y: 0, z: 0}
+  life: 20
+  underpoint: {fileID: 4441967048561758270}
+  shotClip: {fileID: 8300000, guid: d277f7c72f95e24478438a129b197446, type: 3}
+  damaged: {fileID: 8300000, guid: 943ba8a64b887994a8fb5e24da1af832, type: 3}
+  running: {fileID: 487295289}
+  runningVol: 0.553
 --- !u!1 &4216479627410071006
 GameObject:
   m_ObjectHideFlags: 0
@@ -2017,7 +2017,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4216479627970620221}
-  m_LocalRotation: {x: -0.019847404, y: -0.00014728686, z: -0.000002923838, w: 0.99980307}
+  m_LocalRotation: {x: -0.019847404, y: -0.00014728548, z: -0.0000029238106, w: 0.99980307}
   m_LocalPosition: {x: 0.009999999, y: 2.9386542, z: -17.89863}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []

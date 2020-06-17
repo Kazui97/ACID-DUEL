@@ -7,26 +7,22 @@ using UnityEngine.UI;
 
 public class Caractermanager : MonoBehaviourPun
 {
-    //Caminadoanimacion rott;
+   
     Control Control;
     Camera Camera;
-    //punterocamara puntero;
-    //public Text gane;
-    //public Text perdi;
+    
     void Start()
     {
-        //gane.enabled = false;
-        //perdi.enabled = false;
-        //rott = GetComponent<Caminadoanimacion>();
+       
         Control = GetComponent<Control>();
         Camera = gameObject.GetComponentInChildren<Camera>();
-        //puntero = GetComponentInChildren<punterocamara>();
+        
         if (!this.photonView.IsMine)
         {
-            //Destroy(rott);
+           
             Control.enabled = false;
             Camera.enabled = false;
-            //puntero.enabled = false;
+            
         }
     }
 
