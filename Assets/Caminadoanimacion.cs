@@ -34,11 +34,11 @@ public class Caminadoanimacion : MonoBehaviour
 
         if (Input.GetKey(KeyCode.A))
         {
-            transform.Rotate(0, -20f * Time.deltaTime, 0);
+            transform.Rotate(0, -50f * Time.deltaTime, 0);
         }
         if (Input.GetKey(KeyCode.D))
         {
-            transform.Rotate(0, 20f * Time.deltaTime, 0);
+            transform.Rotate(0, 50f * Time.deltaTime, 0);
         }
     }
 }

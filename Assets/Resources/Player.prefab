@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 207444436}
   m_LocalRotation: {x: 0.084042236, y: -0.00022762809, z: 0.000019333067, w: 0.9964622}
-  m_LocalPosition: {x: -5.5879357e-10, y: -0.0000002861023, z: 0}
+  m_LocalPosition: {x: -0.0000000013969839, y: -0.00000050067905, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1509560259}
@@ -559,7 +559,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1773424420}
-  m_LocalRotation: {x: -0.0033742397, y: -0.00013827876, z: -0.00000046833526, w: 0.99999434}
+  m_LocalRotation: {x: -0.0033742376, y: -0.00013827969, z: -0.00000046833813, w: 0.99999434}
   m_LocalPosition: {x: -2.7939678e-10, y: -0.00000014305115, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1304,7 +1304,6 @@ GameObject:
   - component: {fileID: 3923624827645373869}
   - component: {fileID: 2010724562223331206}
   - component: {fileID: 4806702724979039550}
-  - component: {fileID: 2052409313823593257}
   - component: {fileID: 3915373583410609668}
   m_Layer: 0
   m_Name: Player
@@ -1551,18 +1550,6 @@ MonoBehaviour:
   m_SynchronizeLayers:
   - SynchronizeType: 0
     LayerIndex: 0
---- !u!114 &2052409313823593257
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4216479627399674109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9721b140ae5d6c469ebfcb301a78a69, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &3915373583410609668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2017,7 +2004,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4216479627970620221}
-  m_LocalRotation: {x: -0.019847404, y: -0.00014728548, z: -0.0000029238106, w: 0.99980307}
+  m_LocalRotation: {x: -0.019847404, y: -0.00014728686, z: -0.000002923838, w: 0.99980307}
   m_LocalPosition: {x: 0.009999999, y: 2.9386542, z: -17.89863}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []

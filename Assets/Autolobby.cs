@@ -72,7 +72,7 @@ public class Autolobby : MonoBehaviourPunCallbacks
     {
         buscarocrear.interactable = false;
         info.text += "\n servido creado";
-        PhotonNetwork.Instantiate("Player",
+        PhotonNetwork.Instantiate("Player 1",
           new Vector3(Random.Range(-1, 2), 0.5f, Random.Range(-1, 2)),
           Quaternion.identity, 0);
     }
@@ -93,6 +93,8 @@ public class Autolobby : MonoBehaviourPunCallbacks
     {
         isloading = true;
         PhotonNetwork.LoadLevel("mapa");
+     
+
     }
 
 }
